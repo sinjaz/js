@@ -13,8 +13,7 @@ v7.5.0
 Then you're fine. That means you have Node.
 If not, download from `https://nodejs.org/en/` and install.
 
-### 2. How to run
-cd into a directory.
+### 2. Go into a directory
 ```
 cd ONE_OF_THE_DIRECTORIES
 ```
