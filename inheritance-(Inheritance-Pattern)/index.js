@@ -8,18 +8,18 @@ Beverage.prototype.drink = function () {
     log('I am drinking ' + this.name);
 }
 
-function Coffee(type) {
-    Beverage.call(this, 'Coffee');
+function Cocktail(type) {
+    Beverage.call(this, 'Cocktail');
     this.type = type;
 }
 
-Coffee.prototype = Object.create(Beverage.prototype);
-Coffee.prototype.sip = function () {
+Cocktail.prototype = Object.create(Beverage.prototype);
+Cocktail.prototype.sip = function () {
     log("Sipping some " + this.type + " " + this.name);
 }
 
 var water = new Beverage('Water');
-var coffee = new Coffee('Bold');
+var oldFashioned = new Cocktail('Old Fashioned');
 water.drink();
-coffee.drink();
-coffee.sip();
+oldFashioned.drink();
+oldFashioned.sip();
