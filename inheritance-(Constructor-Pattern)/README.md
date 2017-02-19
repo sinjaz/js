@@ -3,7 +3,7 @@
 ### 1. How to run
 cd into the directory
 ```
-cd cd inheritance-\(Constructor-Pattern\)/
+cd inheritance-\(Constructor-Pattern\)/
 ```
 
 ### 2. Run using node
