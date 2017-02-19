@@ -1,6 +1,6 @@
 # Inheritance using the Constructor Pattern
 
-### Code
+### Code Shortcut
 ```javascript
 var sina = new Person('Sina', 12);
 ```
