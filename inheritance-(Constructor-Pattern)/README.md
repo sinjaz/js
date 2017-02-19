@@ -2,6 +2,7 @@
 
 ### Code
 ```javascript
+var sina = new Person('Sina', 12);
 ```
 
 ### 1. How to run
