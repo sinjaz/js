@@ -13,5 +13,12 @@ node index.js
 
 ### Code Shortcut
 ```javascript
-var sina = new Person('Sina', 12);
+function Person(name) {
+    this.name = name;
+}
+Person.prototype.greet = function () {
+    log('Hi, this is' + this.name);
+}
+
+var sina = new Person('Sina');
 ```
