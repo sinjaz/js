@@ -1,8 +1,7 @@
-# Inheritance using Object.Create
+# Inheritance using the Constructor Pattern
 
 ### Code
 ```javascript
-Object.create(OLD_OBJECT, NEW PROPERTIES);
 ```
 
 ### 1. How to run
