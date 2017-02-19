@@ -7,7 +7,7 @@ node -v
 ```
 If it displays the version like this:
 ```
-sina-3:js Sina$ node -v
+$ node -v
 v7.5.0
 ```
 Then you're fine. That means you have Node.
