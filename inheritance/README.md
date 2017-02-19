@@ -1,2 +1,4 @@
-Inheritance using Object.Create
-`Object.create(OLD_OBJECT, NEW PROPERTIES);`
+# Inheritance using Object.Create
+```javascript
+Object.create(OLD_OBJECT, NEW PROPERTIES);
+```
