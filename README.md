@@ -1,4 +1,4 @@
-# JavaScript stuff (ES5)...
+# JavaScript Code Samples
 
 ### 1. Do you have Node installed?
 Check if you have node:
