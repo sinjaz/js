@@ -1,6 +1,6 @@
 log = console.log;
 
-function Beverage(name, age) {
+function Beverage(name) {
     this.name = name;
 }
 

@@ -7,11 +7,10 @@ var sina = {
         log(this.name + ' is ' + this.age + ' years old');
     }
 };
-
 sina.greet();
+
 var ben = Object.create(sina, {
     name: {value: 'Ben'},
     age: {value: 8}
 });
-
 ben.greet();
