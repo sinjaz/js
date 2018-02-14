@@ -17,6 +17,10 @@ If not, download from `https://nodejs.org/en/` and install.
 ```
 cd ONE_OF_THE_DIRECTORIES
 ```
+for example:
+```
+cd promises
+```
 
 ### 3. Run using node
 ```
