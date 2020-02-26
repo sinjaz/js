@@ -31,13 +31,24 @@ var maxIncreaseKeepingSkyline = function (grid) {
     let row = grid[i];
     for (let j = 0; j < row.length; j++) {
       let col = row[j];
-      let diffInRow = 0;
-      let diffInCol = 0;
       output += Math.max(Math.min(topSkyline[j] - col, rightSkyline[i] - col), 0);
     }
   }
+  return output;
+};
 
-  // Find top skyline and right skyline by 
+let input = [[3, 0, 8, 4], [2, 4, 5, 7], [9, 2, 6, 3], [0, 3, 1, 0]];
+
+// [3, 0, 8, 4]
+// [2, 4, 5, 7]
+// [9, 2, 6, 3]
+// [0, 3, 1, 0]
+
+let output = maxIncreaseKeepingSkyline(input);
+console.log(output);
+
+
+// Find top skyline and right skyline by 
     // creating a new <topSkyline: array>
     // creating a new <rightSkyline: array>
     // walking through the grid array
@@ -58,23 +69,8 @@ var maxIncreaseKeepingSkyline = function (grid) {
       // Find the difference between that building and the highest number from rightSkyline using the row index
       // Find the difference between that building and the highest number from the topSkyline using the column index
       // Whichever number is smaller, that is the allowed number of stories it can increase by, so increase the output by that much
-  
+
   // Return the output number
-  return output;
-};
-
-let input = [[3, 0, 8, 4], [2, 4, 5, 7], [9, 2, 6, 3], [0, 3, 1, 0]];
-
-// [3, 0, 8, 4]
-// [2, 4, 5, 7]
-// [9, 2, 6, 3]
-// [0, 3, 1, 0]
-
-let output = maxIncreaseKeepingSkyline(input);
-console.log(output);
-
-
-
 
 
 
