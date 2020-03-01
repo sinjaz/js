@@ -22,7 +22,6 @@ var longestPalindrome = function (s) {
     else map[char]++;
   }
 
-  console.log(map);
   for (let c in map) {
     if (map[c] % 2 == 0){
       evens = evens + map[c];
