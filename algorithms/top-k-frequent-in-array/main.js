@@ -28,5 +28,5 @@ var topKFrequent = function(nums, k) {
   return sorted.slice(0, k);
 };
 
-console.log(topKFrequent([1,1,1,2,2,3], 2));
+console.log(topKFrequent([3,2,2,3,3,4], 1));
 console.log(topKFrequent([1], 1));
